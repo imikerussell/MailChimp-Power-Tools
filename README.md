@@ -8,7 +8,7 @@ _Lead Magnet:_ A desireable digital download offered in exchange for contact inf
 
 I started using MailChimp Automations to send a lead magnet when I subscriber joins a group from a signup form.
 
-After I hit the maximum of 60 groups per MailChimp account I started looking for another way to allow new subscribers (and current subscribers) the opportunity to opt-in to my list without being restricted to creating a maximum of 60 lead magnets on the Music Radio Creative Blog.
+After I hit the maximum of 60 groups per MailChimp account I started looking for another way to allow new subscribers (and current subscribers) the opportunity to opt-in to my list without being restricted to creating a maximum of 60 lead magnets on the [Music Radio Creative Blog](http://blog.musicradiocreative.com/).
 
 ### The Solution
 
