@@ -1,5 +1,7 @@
 # MailChimp-Power-Tools
 
+<img src="https://github.com/imikerussell/MailChimp-Power-Tools/blob/master/images/mc-power-tools.png?raw=true" width="600">
+
 _Lead Magnet:_ A desireable digital download offered in exchange for contact information. Usually a lead magnet takes the form of audio (mp3), a document (pdf) or videos (mp4).
 
 ### The Problem
@@ -39,15 +41,16 @@ $thanksurl = 'WEB URL OF THANK YOU PAGE (AFTER USER SUBSCRIBES TO YOUR LIST THEY
 
 1. Login to Mailchimp.
 2. Go to Templates and select or create a cool template with a big button.
+<img src="https://github.com/imikerussell/MailChimp-Power-Tools/blob/master/images/template.png?raw=true" width="600">
 
 ### Create Each Lead Magnet as an Automation
 
 1. Go to Automation and select Add Automation.
 2. Select Integration from the side menu then click Add Automation on the API 3.0 box.
-3. Name your automation (the name of the lead magnet is a good idea here!).
+3. Name your automation (the name of the lead magnet is a good idea here!).<img src="https://github.com/imikerussell/MailChimp-Power-Tools/blob/master/images/lead-magnet.png?raw=true" width="600">
 4. Click the drop down menus on Second API Call and Third API Call and click Delete Email on both. We only need one email to be sent with the lead!
 5. Now click Edit trigger on First API Call and change Delay to Immediately and Update Trigger.
-6. Click Design Email, enter your Email information, choose a template (preferably one with a big button in it).
+6. Click Design Email, enter your Email information, choose a template (preferably one with a big button in it).<img src="https://github.com/imikerussell/MailChimp-Power-Tools/blob/master/images/email-information.png?raw=true" width="600">
 7. Select the button and then use MailChimp’s File Manager to upload your lead magnet.
 8. Save & Close, Save and Continue, Next then Start Workflow.
 9. Make it faster next time by clicking Automation then Replicate on the drop down menu by a previous lead magnet email you created. Now repeat steps 6-8 only!
@@ -65,7 +68,7 @@ $thanksurl = 'WEB URL OF THANK YOU PAGE (AFTER USER SUBSCRIBES TO YOUR LIST THEY
 1. Login to Mailchimp.
 2. Go to Lists and select your list.
 3. Settings dropdown menu, followed by List fields and *|MERGE|* tags option.
-4. Click Add A Field, type Text.
+4. Click Add A Field, type Text.<img src="https://github.com/imikerussell/MailChimp-Power-Tools/blob/master/images/interest.png?raw=true" width="800">
 5. Label should be a descriptive interest name e.g. “Script Ideas”. Untick Required and Visible, tag should be all caps and related to interest e.g. “SCRIPTS”, default merge tag value should be blank.
 
 ### Generate MailChimp Form Code for an Interest
