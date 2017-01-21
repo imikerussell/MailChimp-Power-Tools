@@ -17,9 +17,6 @@
 		 'FNAME'=>$_GET['FNAME'],
  		 $_GET['INTEREST'] => 'True',
 		);
-	// Automation variables
-	$workflow_id = $_GET['WORKFLOW_ID'];
-	$workflow_email_id = $_GET['WORKFLOW_EMAIL_ID'];
 	// remove empty merge fields
 	$mergeFields = array_filter($mergeFields);
 	$result = $MailChimp->put("lists/$list/members/$id", array(
