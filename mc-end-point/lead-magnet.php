@@ -8,7 +8,7 @@
 	
 	// connect to mailchimp
 	$MailChimp = new MailChimp($mcapi); // put your API key here
-	$list = 'f0f94e0f2d'; // put your list ID here
+	$list = $mclistid; // put your list ID here
 	$email = $_GET['EMAIL']; // Get email address from form
 	$id = md5(strtolower($email)); // Encrypt the email address
 	// setup the merge fields
