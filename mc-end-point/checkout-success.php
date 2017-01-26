@@ -21,9 +21,10 @@
 	$mergeFields = array_filter($mergeFields);
 	$result = $MailChimp->put("lists/$list/members/$id", array(
 									'email_address'     => $email,
-									'status'            => 'subscribed',
+									'status'            => 'pending',
 									'merge_fields'      => $mergeFields,
 									'update_existing'   => true, // YES, update old subscribers!
 							));
 	echo json_encode($result);
-	header( 'Location: ' . ($thanksurl) . '' ) ; ?>
+	// Comment out the line below if you require a JSON response and not a thank you page (for apps)
+	// header( 'Location: ' . ($thanksurl) . '' ) ; ?>
